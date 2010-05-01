@@ -1,18 +1,17 @@
 Source: libdbusmenu-qt
-Section: libdevel
+Section: libs
 Priority: optional
 Build-Depends: cmake,
-	       debhelper (>= 7), 
-	       qt4-qmake, 
+	       debhelper (>= 7.4.12), 
 	       libqt4-dev
-Maintainer: Praveen Arimbrathodiyil (A proud GNU user) <pravi.a@gmail.com>
+Maintainer: Debian Krap Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Praveen Arimbrathodiyil (A proud GNU user) <pravi.a@gmail.com>
 Standards-Version: 3.8.4
 Homepage: http://people.canonical.com/~agateau/dbusmenu/
-Vcs-Git: git://gitorious.org/dbusmenu/dbusmenu-qt.git
-Vcs-Browser: http://gitorious.org/dbusmenu/dbusmenu-qt
+Vcs-Svn: svn://svn.debian.org/pkg-kde/krap/libdbusmenu-qt
+Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/krap/libdbusmenu-qt/#_krap_libdbusmenu-qt_
 
 Package: libdbusmenu-qt2
-Section: libs
 Architecture: any
 Depends: ${misc:Depends},
 	 ${shlibs:Depends}
