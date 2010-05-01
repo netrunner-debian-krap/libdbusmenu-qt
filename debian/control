@@ -1,0 +1,34 @@
+Source: libdbusmenu-qt
+Section: libdevel
+Priority: optional
+Build-Depends: cmake,
+	       debhelper (>= 7), 
+	       qt4-qmake, 
+	       libqt4-dev
+Maintainer: Praveen Arimbrathodiyil (A proud GNU user) <pravi.a@gmail.com>
+Standards-Version: 3.8.4
+Homepage: http://people.canonical.com/~agateau/dbusmenu/
+Vcs-Git: git://gitorious.org/dbusmenu/dbusmenu-qt.git
+Vcs-Browser: http://gitorious.org/dbusmenu/dbusmenu-qt
+
+Package: libdbusmenu-qt2
+Section: libs
+Architecture: any
+Depends: ${misc:Depends},
+	 ${shlibs:Depends}
+Description: Qt implementation of DBusMenu protocol
+ This library provides a Qt implementation of the DBusMenu protocol
+ .
+ The DBusMenu protocol makes it possible for applications to export 
+ and import their menus over DBus.
+
+Package: libdbusmenu-qt-dev
+Section: libdevel
+Architecture: any
+Depends: libdbusmenu-qt2 (= ${binary:Version}),
+	 ${misc:Depends}
+Description: Qt implementation of DBusMenu protocol (development)
+ This library provides a Qt implementation of the DBusMenu protocol
+ .
+ The DBusMenu protocol makes it possible for applications to export 
+ and import their menus over DBus.

@@ -1,0 +1,5 @@
+libdbusmenu-qt (0.3.2-1) unstable; urgency=low
+
+  * Initial release. (Closes: #579677)
+
+ -- Praveen Arimbrathodiyil (A proud GNU user) <pravi.a@gmail.com>  Mon, 26 Apr 2010 19:15:31 +0530
