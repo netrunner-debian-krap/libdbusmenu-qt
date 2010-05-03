@@ -1,23 +1,4 @@
-libdbusmenu-qt (0.3.2-2) unstable; urgency=low
-
-  [ Praveen Arimbrathodiyil ]
-  * VCS links changed to packaging VCS
-  * Main Section changed to libs
-  * Redundant 'Section' field removed from binary package
-  * Removed CMakeLists.txt from docs
-  * libdbusmenu-qt-devs.dirs and libdbusmenu-qt2.dirs removed (redundant)
-  * libdbusmenu-qt2.install - soname is embedded instead of lib*.so.* wild card
-  * Changed Maintainer to Debian Krap Maintainers 
-  * Moved Praveen Arimbrathodiyil to Uploaders
-  * Removed post* as they are redundant (dh_makeshlibs will take care of this)
-  * Removed debian/shlibs.local and added dh_makeshlibs override
-  * debian/rules, debian/watch - example boilerplates removed
-  * debhelper dependency increased to 7.4.12 for qmake support 
-  * qt4-qmake dependency dropped
-
- -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Sat, 01 May 2010 15:22:04 +0530
-
-libdbusmenu-qt (0.3.2-1) unstable; urgency=low
+libdbusmenu-qt (0.3.2-1) UNRELEASED; urgency=low
 
   * Initial release. (Closes: #579677)
 

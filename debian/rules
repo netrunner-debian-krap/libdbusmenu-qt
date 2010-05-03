@@ -8,4 +8,3 @@
 
 override_dh_makeshlibs:
 	dh_makeshlibs -V 'libdbusmenu-qt2 (>=0.3.2)'
-	dpkg-shlibdeps debian/tmp/usr/lib/*
