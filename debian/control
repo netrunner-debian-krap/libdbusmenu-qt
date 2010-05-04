@@ -1,11 +1,11 @@
 Source: libdbusmenu-qt
 Section: libs
 Priority: optional
-Build-Depends: cmake,
-	       debhelper (>= 7.4.12), 
+Build-Depends: debhelper (>= 7.4.12), 
+	       cmake,
 	       libqt4-dev
 Maintainer: Debian Krap Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: Praveen Arimbrathodiyil (A proud GNU user) <pravi.a@gmail.com>
+Uploaders: Praveen Arimbrathodiyil <pravi.a@gmail.com>
 Standards-Version: 3.8.4
 Homepage: http://people.canonical.com/~agateau/dbusmenu/
 Vcs-Svn: svn://svn.debian.org/pkg-kde/krap/libdbusmenu-qt
@@ -25,6 +25,7 @@ Package: libdbusmenu-qt-dev
 Section: libdevel
 Architecture: any
 Depends: libdbusmenu-qt2 (= ${binary:Version}),
+	 libqt4-dev,
 	 ${misc:Depends}
 Description: Qt implementation of DBusMenu protocol (development)
  This library provides a Qt implementation of the DBusMenu protocol
