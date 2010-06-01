@@ -1,6 +1,7 @@
 libdbusmenu-qt (0.3.3-1) UNRELEASED; urgency=low
 
   * New upstream release.
+  * added libdbusmenu-qt2.symbols file.
 
  -- Praveen Arimbrathodiyil <pravi.a@gmail.com>  Tue, 01 Jun 2010 16:02:30 +0530
 
