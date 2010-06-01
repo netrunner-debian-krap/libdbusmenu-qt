@@ -1,3 +1,9 @@
+libdbusmenu-qt (0.3.3-1) UNRELEASED; urgency=low
+
+  * New upstream release.
+
+ -- Praveen Arimbrathodiyil <pravi.a@gmail.com>  Tue, 01 Jun 2010 16:02:30 +0530
+
 libdbusmenu-qt (0.3.2-1) unstable; urgency=low
 
   * Initial release. (Closes: #579677)
