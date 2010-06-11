@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 0.3.2 alpha amd64 armel hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
+# SymbolsHelper-Confirmed: 0.3.3 amd64
 libdbusmenu-qt.so.2 libdbusmenu-qt2 #MINVER#
  _ZN16DBusMenuExporter11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.3.2
  _ZN16DBusMenuExporter11qt_metacastEPKc@Base 0.3.2
@@ -17,7 +17,10 @@ libdbusmenu-qt.so.2 libdbusmenu-qt2 #MINVER#
  _ZN16DBusMenuImporter15slotItemUpdatedEi@Base 0.3.2
  _ZN16DBusMenuImporter16sendClickedEventEi@Base 0.3.2
  _ZN16DBusMenuImporter16staticMetaObjectE@Base 0.3.2
+ _ZN16DBusMenuImporter17slotLayoutUpdatedEji@Base 0.3.3
+ _ZN16DBusMenuImporter18menuReadyToBeShownEv@Base 0.3.3
  _ZN16DBusMenuImporter19GetChildrenCallbackEiP23QDBusPendingCallWatcher@Base 0.3.2
+ _ZN16DBusMenuImporter19slotMenuAboutToHideEv@Base 0.3.3
  _ZN16DBusMenuImporter19slotMenuAboutToShowEv@Base 0.3.2
  _ZN16DBusMenuImporter21GetPropertiesCallbackEiP23QDBusPendingCallWatcher@Base 0.3.2
  _ZN16DBusMenuImporter23slotItemPropertyUpdatedEiRK7QStringRK12QDBusVariant@Base 0.3.2
