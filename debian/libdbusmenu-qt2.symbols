@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 0.3.3 amd64
+# SymbolsHelper-Confirmed: 0.3.4 amd64
 libdbusmenu-qt.so.2 libdbusmenu-qt2 #MINVER#
  _ZN16DBusMenuExporter11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.3.2
  _ZN16DBusMenuExporter11qt_metacastEPKc@Base 0.3.2
@@ -31,9 +31,11 @@ libdbusmenu-qt.so.2 libdbusmenu-qt2 #MINVER#
  _ZN16DBusMenuImporterD0Ev@Base 0.3.2
  _ZN16DBusMenuImporterD1Ev@Base 0.3.2
  _ZN16DBusMenuImporterD2Ev@Base 0.3.2
+ _ZN16DBusMenuShortcut15fromKeySequenceERK12QKeySequence@Base 0.3.4
  _ZNK16DBusMenuExporter10metaObjectEv@Base 0.3.2
  _ZNK16DBusMenuImporter10metaObjectEv@Base 0.3.2
  _ZNK16DBusMenuImporter4menuEv@Base 0.3.2
+ _ZNK16DBusMenuShortcut13toKeySequenceEv@Base 0.3.4
  _ZTI16DBusMenuExporter@Base 0.3.2
  _ZTI16DBusMenuImporter@Base 0.3.2
  _ZTS16DBusMenuExporter@Base 0.3.2

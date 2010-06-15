@@ -1,3 +1,14 @@
+libdbusmenu-qt (0.3.4-1) unstable; urgency=low
+
+  * New upstream release.
+  * debian/watch: changed release url to new location.
+  * debian/copyright: made it machine readable.
+  * debian/libdbusmenu-qt2.symbols: new symbols added.
+  * debian/control: dev & lib package clarification added to descriptions.
+  * missing-copyright-info.patch: copyright info fixed in upstream.
+
+ -- Praveen Arimbrathodiyil <pravi.a@gmail.com>  Wed, 16 Jun 2010 01:13:38 +0530
+
 libdbusmenu-qt (0.3.3-1) unstable; urgency=low
 
   * New upstream release.

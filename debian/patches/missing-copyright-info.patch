@@ -1,0 +1,68 @@
+From: Aurelien Gateau <aurelien.gateau@canonical.com>
+Subject: [PATCH] Added missing copyright information.
+
+ * tests/slowmenu.cpp: copyright and license added
+ * tests/slowmenu.h: copyright and license added
+
+Origin: upstream, http://gitorious.org/dbusmenu/dbusmenu-qt/commit/a0db7b0c66e61a9919053aaea8c93375eced7fd9.patch
+Bug: https://bugs.launchpad.net/libdbusmenu-qt/+bug/594126
+ 
+diff --git a/tests/slowmenu.cpp b/tests/slowmenu.cpp
+index 1195eee..51682e6 100644
+--- a/tests/slowmenu.cpp
++++ b/tests/slowmenu.cpp
+@@ -1,3 +1,23 @@
++/* This file is part of the KDE libraries
++   Copyright 2010 Canonical
++   Author: Aurelien Gateau <aurelien.gateau@canonical.com>
++
++   This library is free software; you can redistribute it and/or
++   modify it under the terms of the GNU Library General Public
++   License (LGPL) as published by the Free Software Foundation;
++   either version 2 of the License, or (at your option) any later
++   version.
++
++   This library is distributed in the hope that it will be useful,
++   but WITHOUT ANY WARRANTY; without even the implied warranty of
++   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
++   Library General Public License for more details.
++
++   You should have received a copy of the GNU Library General Public License
++   along with this library; see the file COPYING.LIB.  If not, write to
++   the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
++   Boston, MA 02110-1301, USA.
++*/
+ #include <slowmenu.moc>
+ 
+ #include <dbusmenuexporter.h>
+diff --git a/tests/slowmenu.h b/tests/slowmenu.h
+index fe75b01..256e1f0 100644
+--- a/tests/slowmenu.h
++++ b/tests/slowmenu.h
+@@ -1,3 +1,23 @@
++/* This file is part of the KDE libraries
++   Copyright 2010 Canonical
++   Author: Aurelien Gateau <aurelien.gateau@canonical.com>
++
++   This library is free software; you can redistribute it and/or
++   modify it under the terms of the GNU Library General Public
++   License (LGPL) as published by the Free Software Foundation;
++   either version 2 of the License, or (at your option) any later
++   version.
++
++   This library is distributed in the hope that it will be useful,
++   but WITHOUT ANY WARRANTY; without even the implied warranty of
++   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
++   Library General Public License for more details.
++
++   You should have received a copy of the GNU Library General Public License
++   along with this library; see the file COPYING.LIB.  If not, write to
++   the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
++   Boston, MA 02110-1301, USA.
++*/
+ #ifndef SLOWMENU_H
+ #define SLOWMENU_H
+ 
+-- 
+1.6.1
+
