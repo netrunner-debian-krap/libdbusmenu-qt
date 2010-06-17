@@ -1,3 +1,10 @@
+libdbusmenu-qt (0.3.4-2) UNRELEASED; urgency=low
+
+  * debian/copyright: changed debian packaging to LGPL-2+ in sync with
+    upstream license (Thanks to Sune Vuorela)
+
+ -- Praveen Arimbrathodiyil <pravi.a@gmail.com>  Thu, 17 Jun 2010 11:29:56 +0530
+
 libdbusmenu-qt (0.3.4-1) unstable; urgency=low
 
   * New upstream release.
