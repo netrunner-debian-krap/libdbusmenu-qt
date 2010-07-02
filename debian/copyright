@@ -3,10 +3,16 @@ Name: libdbusmenu-qt
 Maintainer: Praveen Arimbrathodiyil <pravi.a@gmail.com>
 Source: http://people.canonical.com/~agateau/dbusmenu/index.html
 
-Files: src/*
-License: LGPL-2+
+Files: src/*, debian/patches/missing-copyright-info.patch
 Copyright: 2009-2010, Canonical
 Author: Aurelien Gateau <aurelien.gateau@canonical.com>
+License: LGPL-2+
+
+Files: debian/*
+Copyright: 2010, Praveen Arimbrathodiyil <pravi.a@gmail.com>
+License: LGPL-2+
+
+License: LGPL-2+
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Library General Public
  License (LGPL) as published by the Free Software Foundation;
@@ -26,9 +32,4 @@ Author: Aurelien Gateau <aurelien.gateau@canonical.com>
  On Debian systems, the complete text of the GNU Library General Public
  License, version 2, can be found in /usr/share/common-licenses/LGPL-2.
 
-Files: debian/*
-Copyright: 2010, Praveen Arimbrathodiyil <pravi.a@gmail.com>
-License: LGPL-2+
- On Debian systems, the complete text of the GNU General Public
- License, version 3, can be found in /usr/share/common-licenses/GPL-3.
 

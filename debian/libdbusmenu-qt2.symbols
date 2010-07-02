@@ -1,17 +1,20 @@
-# SymbolsHelper-Confirmed: 0.3.4 amd64
+# SymbolsHelper-Confirmed: 0.5.1 amd64
 libdbusmenu-qt.so.2 libdbusmenu-qt2 #MINVER#
  _ZN16DBusMenuExporter11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.3.2
  _ZN16DBusMenuExporter11qt_metacastEPKc@Base 0.3.2
  _ZN16DBusMenuExporter15doUpdateActionsEv@Base 0.3.2
  _ZN16DBusMenuExporter16staticMetaObjectE@Base 0.3.2
  _ZN16DBusMenuExporter17iconNameForActionEP7QAction@Base 0.3.2
+ _ZN16DBusMenuExporter19doEmitLayoutUpdatedEv@Base 0.5.1
  _ZN16DBusMenuExporterC1ERK7QStringP5QMenuRK15QDBusConnection@Base 0.3.2
  _ZN16DBusMenuExporterC2ERK7QStringP5QMenuRK15QDBusConnection@Base 0.3.2
  _ZN16DBusMenuExporterD0Ev@Base 0.3.2
  _ZN16DBusMenuExporterD1Ev@Base 0.3.2
  _ZN16DBusMenuExporterD2Ev@Base 0.3.2
  _ZN16DBusMenuImporter10createMenuEP7QWidget@Base 0.3.2
+ _ZN16DBusMenuImporter10updateMenuEv@Base 0.5.1
  _ZN16DBusMenuImporter11iconForNameERK7QString@Base 0.3.2
+ _ZN16DBusMenuImporter11menuUpdatedEv@Base 0.5.1
  _ZN16DBusMenuImporter11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.3.2
  _ZN16DBusMenuImporter11qt_metacastEPKc@Base 0.3.2
  _ZN16DBusMenuImporter15slotItemUpdatedEi@Base 0.3.2
@@ -20,10 +23,11 @@ libdbusmenu-qt.so.2 libdbusmenu-qt2 #MINVER#
  _ZN16DBusMenuImporter17slotLayoutUpdatedEji@Base 0.3.3
  _ZN16DBusMenuImporter18menuReadyToBeShownEv@Base 0.3.3
  _ZN16DBusMenuImporter19GetChildrenCallbackEiP23QDBusPendingCallWatcher@Base 0.3.2
- _ZN16DBusMenuImporter19slotMenuAboutToHideEv@Base 0.3.3
+#MISSING: 0.5.1# _ZN16DBusMenuImporter19slotMenuAboutToHideEv@Base 0.3.3
  _ZN16DBusMenuImporter19slotMenuAboutToShowEv@Base 0.3.2
  _ZN16DBusMenuImporter21GetPropertiesCallbackEiP23QDBusPendingCallWatcher@Base 0.3.2
  _ZN16DBusMenuImporter23slotItemPropertyUpdatedEiRK7QStringRK12QDBusVariant@Base 0.3.2
+ _ZN16DBusMenuImporter27processPendingLayoutUpdatesEv@Base 0.5.1
  _ZN16DBusMenuImporter31slotAboutToShowDBusCallFinishedEP23QDBusPendingCallWatcher@Base 0.3.2
  _ZN16DBusMenuImporter8dispatchEP23QDBusPendingCallWatcher@Base 0.3.2
  _ZN16DBusMenuImporterC1ERK7QStringS2_P7QObject@Base 0.3.2

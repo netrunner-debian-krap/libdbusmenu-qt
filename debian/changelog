@@ -1,20 +1,15 @@
-libdbusmenu-qt (0.3.4-2) UNRELEASED; urgency=low
+libdbusmenu-qt (0.5.1-1) unstable; urgency=low
 
-  * debian/copyright: changed debian packaging to LGPL-2+ in sync with
-    upstream license (Thanks to Sune Vuorela)
-
- -- Praveen Arimbrathodiyil <pravi.a@gmail.com>  Thu, 17 Jun 2010 11:29:56 +0530
-
-libdbusmenu-qt (0.3.4-1) unstable; urgency=low
-
-  * New upstream release.
+  * New upstream release. (Closes: #587546)
   * debian/watch: changed release url to new location.
   * debian/copyright: made it machine readable.
+  * debian/copyright: changed debian packaging to LGPL-2+ in sync with
+    upstream license (Thanks to Sune Vuorela)
+  * debian/control: updated policy to 3.9.0
   * debian/libdbusmenu-qt2.symbols: new symbols added.
   * debian/control: dev & lib package clarification added to descriptions.
-  * missing-copyright-info.patch: copyright info fixed in upstream.
 
- -- Praveen Arimbrathodiyil <pravi.a@gmail.com>  Wed, 16 Jun 2010 01:13:38 +0530
+ -- Praveen Arimbrathodiyil <pravi.a@gmail.com>  Fri, 02 Jul 2010 01:30:47 +0530
 
 libdbusmenu-qt (0.3.3-1) unstable; urgency=low
 
