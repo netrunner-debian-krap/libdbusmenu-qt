@@ -23,7 +23,6 @@ libdbusmenu-qt.so.2 libdbusmenu-qt2 #MINVER#
  _ZN16DBusMenuImporter17slotLayoutUpdatedEji@Base 0.3.3
  _ZN16DBusMenuImporter18menuReadyToBeShownEv@Base 0.3.3
  _ZN16DBusMenuImporter19GetChildrenCallbackEiP23QDBusPendingCallWatcher@Base 0.3.2
-#MISSING: 0.5.1# _ZN16DBusMenuImporter19slotMenuAboutToHideEv@Base 0.3.3
  _ZN16DBusMenuImporter19slotMenuAboutToShowEv@Base 0.3.2
  _ZN16DBusMenuImporter21GetPropertiesCallbackEiP23QDBusPendingCallWatcher@Base 0.3.2
  _ZN16DBusMenuImporter23slotItemPropertyUpdatedEiRK7QStringRK12QDBusVariant@Base 0.3.2
