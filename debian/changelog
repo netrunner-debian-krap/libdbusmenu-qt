@@ -2,6 +2,7 @@ libdbusmenu-qt (0.5.1-2) UNRELEASED; urgency=low
 
   * debian/rules: added support for parallel building.
   * debian/copyright: cleared copyright info of removed patch.
+  * debian/control: changed homepage to page on launchpad.net.
 
  -- Praveen Arimbrathodiyil <pravi.a@gmail.com>  Fri, 02 Jul 2010 15:50:12 +0530
 
