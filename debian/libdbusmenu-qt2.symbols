@@ -1,11 +1,13 @@
-# SymbolsHelper-Confirmed: 0.5.1 amd64
+# SymbolsHelper-Confirmed: 0.6.6 amd64
 libdbusmenu-qt.so.2 libdbusmenu-qt2 #MINVER#
  _ZN16DBusMenuExporter11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.3.2
  _ZN16DBusMenuExporter11qt_metacastEPKc@Base 0.3.2
+ _ZN16DBusMenuExporter14activateActionEP7QAction@Base 0.6.6
  _ZN16DBusMenuExporter15doUpdateActionsEv@Base 0.3.2
  _ZN16DBusMenuExporter16staticMetaObjectE@Base 0.3.2
  _ZN16DBusMenuExporter17iconNameForActionEP7QAction@Base 0.3.2
  _ZN16DBusMenuExporter19doEmitLayoutUpdatedEv@Base 0.5.1
+ _ZN16DBusMenuExporter19slotActionDestroyedEP7QObject@Base 0.6.6
  _ZN16DBusMenuExporterC1ERK7QStringP5QMenuRK15QDBusConnection@Base 0.3.2
  _ZN16DBusMenuExporterC2ERK7QStringP5QMenuRK15QDBusConnection@Base 0.3.2
  _ZN16DBusMenuExporterD0Ev@Base 0.3.2
@@ -26,7 +28,9 @@ libdbusmenu-qt.so.2 libdbusmenu-qt2 #MINVER#
  _ZN16DBusMenuImporter19slotMenuAboutToShowEv@Base 0.3.2
  _ZN16DBusMenuImporter21GetPropertiesCallbackEiP23QDBusPendingCallWatcher@Base 0.3.2
  _ZN16DBusMenuImporter23slotItemPropertyUpdatedEiRK7QStringRK12QDBusVariant@Base 0.3.2
+ _ZN16DBusMenuImporter25actionActivationRequestedEP7QAction@Base 0.6.6
  _ZN16DBusMenuImporter27processPendingLayoutUpdatesEv@Base 0.5.1
+ _ZN16DBusMenuImporter27slotItemActivationRequestedEij@Base 0.6.6
  _ZN16DBusMenuImporter31slotAboutToShowDBusCallFinishedEP23QDBusPendingCallWatcher@Base 0.3.2
  _ZN16DBusMenuImporter8dispatchEP23QDBusPendingCallWatcher@Base 0.3.2
  _ZN16DBusMenuImporterC1ERK7QStringS2_P7QObject@Base 0.3.2
