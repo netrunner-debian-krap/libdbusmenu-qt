@@ -1,5 +1,7 @@
 libdbusmenu-qt (0.6.6-1) UNRELEASED; urgency=low
 
+  * New upstream release. (Closes: #606199)
+
   [ Praveen Arimbrathodiyil ]
   * debian/rules: added support for parallel building.
   * debian/copyright: cleared copyright info of removed patch.
