@@ -6,10 +6,10 @@ Build-Depends: debhelper (>= 7.4.12),
 	       libqt4-dev
 Maintainer: Debian Krap Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Praveen Arimbrathodiyil <pravi.a@gmail.com>
-Standards-Version: 3.9.0
+Standards-Version: 3.9.1
 Homepage: https://launchpad.net/libdbusmenu-qt
-Vcs-Svn: svn://svn.debian.org/pkg-kde/krap/libdbusmenu-qt
-Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/krap/libdbusmenu-qt/#_krap_libdbusmenu-qt_
+Vcs-Git: git://git.debian.org/pkg-kde/krap/libdbusmenu-qt.git
+Vcs-Browser: http://git.debian.org/?p=pkg-kde/krap/libdbusmenu-qt.git;a=summary
 
 Package: libdbusmenu-qt2
 Architecture: any

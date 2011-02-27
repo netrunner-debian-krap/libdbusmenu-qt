@@ -1,4 +1,4 @@
-libdbusmenu-qt (0.6.6-1) UNRELEASED; urgency=low
+libdbusmenu-qt (0.6.6-1) unstable; urgency=low
 
   * New upstream release. (Closes: #606199)
 
@@ -6,11 +6,13 @@ libdbusmenu-qt (0.6.6-1) UNRELEASED; urgency=low
   * debian/rules: added support for parallel building.
   * debian/copyright: cleared copyright info of removed patch.
   * debian/control: changed homepage to page on launchpad.net.
+  * debian/control: updated vcs from svn to git.
+  * debian/control: updated policy to 3.9.1
 
   [ José Manuel Santamaría Lema ]
   * Update symbols file.
 
- -- Praveen Arimbrathodiyil <pravi.a@gmail.com>  Fri, 02 Jul 2010 15:50:12 +0530
+ -- Praveen Arimbrathodiyil <pravi.a@gmail.com>  Sun, 27 Feb 2011 07:05:33 +0530
 
 libdbusmenu-qt (0.5.1-1) unstable; urgency=low
 
