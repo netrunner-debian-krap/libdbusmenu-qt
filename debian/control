@@ -6,7 +6,7 @@ Build-Depends: debhelper (>= 7.4.12),
 	       	libqt4-dev,
 		libqjson-dev
 Maintainer: Debian Krap Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: Praveen Arimbrathodiyil <pravi.a@gmail.com>
+Uploaders: Praveen Arimbrathodiyil <pravi.a@gmail.com>, Modestas Vainius <modax@debian.org>
 DM-Upload-Allowed: yes
 Standards-Version: 3.9.2
 Homepage: https://launchpad.net/libdbusmenu-qt
