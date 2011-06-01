@@ -1,5 +1,7 @@
 libdbusmenu-qt (0.8.0-3) UNRELEASED; urgency=low
 
+  * gcc seems to still emit some random symbols on some arches. Mark them as
+    optional and arch specific. (Closes: #628745)
 
  -- Modestas Vainius <modax@debian.org>  Wed, 01 Jun 2011 13:18:12 +0300
 
