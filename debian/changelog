@@ -1,3 +1,8 @@
+libdbusmenu-qt (0.8.0-3) UNRELEASED; urgency=low
+
+
+ -- Modestas Vainius <modax@debian.org>  Wed, 01 Jun 2011 13:18:12 +0300
+
 libdbusmenu-qt (0.8.0-2) unstable; urgency=low
 
   * Fix symbol files to build against gcc 4.6. (Closes: #628745)
