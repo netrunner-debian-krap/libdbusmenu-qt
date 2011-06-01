@@ -1,6 +1,7 @@
 libdbusmenu-qt (0.8.0-2) UNRELEASED; urgency=low
 
   * Fix symbol files to build against gcc 4.6. (Closes: #628745)
+  * Bump Standards-Version to 3.9.2: no changes needed.
 
  -- Modestas Vainius <modax@debian.org>  Wed, 01 Jun 2011 11:17:19 +0300
 
