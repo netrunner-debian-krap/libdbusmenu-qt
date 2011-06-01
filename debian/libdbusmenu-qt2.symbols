@@ -37,6 +37,8 @@ libdbusmenu-qt.so.2 libdbusmenu-qt2 #MINVER#
  _ZN16DBusMenuImporterD1Ev@Base 0.3.2
  _ZN16DBusMenuImporterD2Ev@Base 0.3.2
  _ZN16DBusMenuShortcut15fromKeySequenceERK12QKeySequence@Base 0.3.4
+ _ZN16DBusMenuShortcutD1Ev@Base 0.8.0
+ _ZN16DBusMenuShortcutD2Ev@Base 0.8.0
  _ZN18DBusMenuLayoutItemD1Ev@Base 0.8.0
  _ZN18DBusMenuLayoutItemD2Ev@Base 0.8.0
  _ZNK16DBusMenuExporter10metaObjectEv@Base 0.3.2
