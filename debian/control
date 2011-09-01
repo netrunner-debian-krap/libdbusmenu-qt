@@ -32,8 +32,8 @@ Architecture: any
 Depends: libdbusmenu-qt2 (= ${binary:Version}),
 	 libqt4-dev,
 	 ${misc:Depends}
-Description: Qt implementation of DBusMenu protocol (development)
- This library provides a Qt implementation of the DBusMenu protocol
+Description: Qt implementation of the DBusMenu protocol (development)
+ This library provides a Qt implementation of the DBusMenu protocol.
  .
  The DBusMenu protocol makes it possible for applications to export 
  and import their menus over DBus.
