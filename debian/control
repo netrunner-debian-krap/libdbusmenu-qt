@@ -3,8 +3,9 @@ Section: libs
 Priority: optional
 Build-Depends: debhelper (>= 7.4.12), 
 		cmake,
-	       	libqt4-dev,
-		libqjson-dev
+	  libqt4-dev,
+		libqjson-dev,
+		doxygen
 Maintainer: Debian Krap Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Praveen Arimbrathodiyil <pravi.a@gmail.com>, Modestas Vainius <modax@debian.org>
 DM-Upload-Allowed: yes
@@ -17,8 +18,8 @@ Package: libdbusmenu-qt2
 Architecture: any
 Depends: ${misc:Depends},
 	 ${shlibs:Depends}
-Description: Qt implementation of DBusMenu protocol
- This library provides a Qt implementation of the DBusMenu protocol
+Description: Qt implementation of the DBusMenu protocol
+ This library provides a Qt implementation of the DBusMenu protocol.
  .
  The DBusMenu protocol makes it possible for applications to export 
  and import their menus over DBus.
