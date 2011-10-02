@@ -1,0 +1,5 @@
+#!/bin/sh
+set -e
+ln -s /usr/share/javascript/jquery/jquery.js /usr/share/doc/libdbusmenu-qt-doc/
+
+#DEBHELPER#
