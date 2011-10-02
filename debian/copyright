@@ -1,6 +1,6 @@
-Format-Specification: http://svn.debian.org/wsvn/dep/web/deps/dep5.mdwn?op=file&rev=135
-Name: libdbusmenu-qt
-Maintainer: Praveen Arimbrathodiyil <pravi.a@gmail.com>
+Format: http://dep.debian.net/deps/dep5/
+Upstream-Name: libdbusmenu-qt
+Upstream-Contact: Aurelien Gateau <aurelien.gateau@canonical.com>
 Source: http://people.canonical.com/~agateau/dbusmenu/index.html
 
 Files: src/*
