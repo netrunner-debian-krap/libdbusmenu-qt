@@ -4,7 +4,12 @@
 #export DH_VERBOSE=1
 
 %:
-	dh --parallel $@
+	dh $@ --parallel --buildsystem=cmake
+
+override_dh_auto_install:
+	dh_auto_install
+	echo "Removing embedded jquery javascript library..."
+	rm debian/tmp/usr/share/doc/libdbusmenu-qt-doc/jquery.js
 
 override_dh_makeshlibs:
 	dh_makeshlibs -V 'libdbusmenu-qt2 (>=0.9.0)'
