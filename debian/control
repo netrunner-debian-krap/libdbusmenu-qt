@@ -1,9 +1,9 @@
 Source: libdbusmenu-qt
 Section: libs
 Priority: optional
-Build-Depends: debhelper (>= 7.4.12), 
-		cmake,
-	  libqt4-dev,
+Build-Depends: debhelper (>= 8.1.3~), 
+		cmake (>= 2.8.5),
+	  libqt4-dev (>= 4:4.6.2),
 		libqjson-dev,
 		doxygen
 Maintainer: Debian Krap Maintainers <debian-qt-kde@lists.debian.org>
@@ -16,8 +16,10 @@ Vcs-Browser: http://git.debian.org/?p=pkg-kde/krap/libdbusmenu-qt.git;a=summary
 
 Package: libdbusmenu-qt2
 Architecture: any
+Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends},
 	 ${shlibs:Depends}
+Multi-Arch: same
 Description: Qt implementation of the DBusMenu protocol
  This library provides a Qt implementation of the DBusMenu protocol.
  .
@@ -39,3 +41,16 @@ Description: Qt implementation of the DBusMenu protocol (development)
  and import their menus over DBus.
  .
  This package provides header files for development.
+
+Package: libdbusmenu-qt-doc
+Section: doc
+Architecture: all
+Depends: libjs-jquery, 
+	${misc:Depends}
+Description: Qt implementation of the DBusMenu protocol (documentation)
+ This library provides a Qt implementation of the DBusMenu protocol.
+ .
+ The DBusMenu protocol makes it possible for applications to export 
+ and import their menus over DBus.
+ .
+ This package provides API documentation in html format.
