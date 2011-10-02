@@ -1,0 +1,14 @@
+Description: change path for html doc
+ Change path for html documentations from
+ dbusmenu-qt to libdbusmenu-qt
+Origin: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging/libdbusmenu-qt/view/head:/debian/patches/kubuntu_02_dbusmenu_doc_path.diff
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -71,6 +71,6 @@
+         )
+ 
+     install(DIRECTORY ${CMAKE_BINARY_DIR}/html/
+-        DESTINATION share/doc/dbusmenu-qt
++        DESTINATION share/doc/libdbusmenu-qt-doc
+         )
+ endif(WITH_DOC)
