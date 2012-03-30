@@ -7,6 +7,7 @@ libdbusmenu-qt (0.9.0-2) unstable; urgency=low
   * debian/rules: move --parallel after $@ 
   * New binary package libdbusmenu-qt-doc.
   * Remove embedded jquery and depend on libjs-jquery.
+  * fix watch file.
 
  -- Praveen Arimbrathodiyil <pravi.a@gmail.com>  Thu, 01 Sep 2011 19:29:20 +0530
 

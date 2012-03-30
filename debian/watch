@@ -2,4 +2,4 @@
 version=3
 
 # <Webpage URL> <string match>
-http://launchpad.net/libdbusmenu-qt/+download/ http://launchpad.net/libdbusmenu-qt/.*/libdbusmenu-qt-(.*)\.tar\.bz2
+https://launchpad.net/libdbusmenu-qt/+download .*/libdbusmenu-qt-([0-9.]+)\.tar\.bz2
