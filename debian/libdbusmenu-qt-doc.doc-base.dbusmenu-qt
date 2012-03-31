@@ -1,9 +1,9 @@
 Document: dbusmenu-qt
-Title: Dbusmenu Qt API Documentation
+Title: DBusMenu Qt API Documentation
 Author: Canonical DX Team, Aurélien Gâteau <aurelien.gateau@canonical.com>
 Abstract: This library provides a Qt implementation of the DBusMenu protocol.
  The DBusMenu protocol makes it possible for applications to export and import
- their menus over DBus.
+ their menus over D-Bus.
 Section: Programming
 
 Format: html
