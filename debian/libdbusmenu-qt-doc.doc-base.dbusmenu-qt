@@ -8,4 +8,5 @@ Section: Programming
 
 Format: html
 Index: /usr/share/doc/libdbusmenu-qt-doc/index.html
-Files: /usr/share/doc/libdbusmenu-qt-doc/index.html
+Files: /usr/share/doc/libdbusmenu-qt-doc/*.html
+       /usr/share/doc/libdbusmenu-qt-doc/search/*.html

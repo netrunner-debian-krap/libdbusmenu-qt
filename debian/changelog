@@ -2,6 +2,7 @@ libdbusmenu-qt (0.9.0-2) unstable; urgency=low
 
   * update description for -dev package too. (Closes: #640251)
   * make all DBus occurance in descriptions to D-Bus.
+  * add all html files to doc-base.
   * Implement multiarch.
     - bump cmake build dependency to 2.8.5.
     - bump debhelper build dependency to 8.1.3.
