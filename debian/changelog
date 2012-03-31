@@ -1,13 +1,15 @@
 libdbusmenu-qt (0.9.0-2) unstable; urgency=low
 
   * update description for -dev package too. (Closes: #640251)
+  * make all DBus occurance in descriptions to D-Bus.
   * Implement multiarch.
     - bump cmake build dependency to 2.8.5.
     - bump debhelper build dependency to 8.1.3.
   * debian/rules: move --parallel after $@ 
   * New binary package libdbusmenu-qt-doc.
   * Remove embedded jquery and depend on libjs-jquery.
-  * fix watch file.
+  * fix watch file with new url scheme.
+  * Thanks to Pino Toscano for many improvements.
 
  -- Praveen Arimbrathodiyil <pravi.a@gmail.com>  Thu, 01 Sep 2011 19:29:20 +0530
 
