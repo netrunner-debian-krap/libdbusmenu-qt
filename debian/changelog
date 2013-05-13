@@ -18,6 +18,8 @@ libdbusmenu-qt (0.9.0-2) unstable; urgency=low
   * Bump debhelper build dependency to 9, matching its used compatibility;
     remove the related source lintian override.
   * rules: remove dh overrides from .PHONY.
+  * Rename docs to libdbusmenu-qt2.docs, so it is explicitly used for the
+    shared library package.
 
  -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Thu, 01 Sep 2011 19:29:20 +0530
 
