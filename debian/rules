@@ -3,7 +3,7 @@
 # Uncomment this to turn on verbose mode.
 #export DH_VERBOSE=1
 
-.PHONY: override_dh_strip override_dh_auto_install override_dh_makeshlibs override_dh_auto_test
+.PHONY: override_dh_auto_test
 
 %:
 	dh $@ --parallel --buildsystem=cmake
