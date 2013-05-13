@@ -1,7 +1,7 @@
 Source: libdbusmenu-qt
 Section: libs
 Priority: optional
-Build-Depends: debhelper (>= 8.1.3~), 
+Build-Depends: debhelper (>= 8.1.3~),
  cmake (>= 2.8.5),
  libqt4-dev (>= 4:4.6.2),
  libqjson-dev,
@@ -23,7 +23,7 @@ Multi-Arch: same
 Description: Qt implementation of the DBusMenu protocol
  This library provides a Qt implementation of the DBusMenu protocol.
  .
- The DBusMenu protocol makes it possible for applications to export 
+ The DBusMenu protocol makes it possible for applications to export
  and import their menus over D-Bus.
  .
  This package provides libdbusmenu-qt2 shared library.
@@ -37,7 +37,7 @@ Depends: libdbusmenu-qt2 (= ${binary:Version}),
 Description: Qt implementation of the DBusMenu protocol (development)
  This library provides a Qt implementation of the DBusMenu protocol.
  .
- The DBusMenu protocol makes it possible for applications to export 
+ The DBusMenu protocol makes it possible for applications to export
  and import their menus over D-Bus.
  .
  This package provides header files for development.
@@ -50,7 +50,7 @@ Depends: libjs-jquery,
 Description: Qt implementation of the DBusMenu protocol (documentation)
  This library provides a Qt implementation of the DBusMenu protocol.
  .
- The DBusMenu protocol makes it possible for applications to export 
+ The DBusMenu protocol makes it possible for applications to exportn
  and import their menus over D-Bus.
  .
  This package provides API documentation in HTML format.
@@ -64,7 +64,7 @@ Depends: libdbusmenu-qt2 (= ${binary:Version}),
 Description: Qt implementation of the DBusMenu protocol (debug)
  This library provides a Qt implementation of the DBusMenu protocol.
  .
- The DBusMenu protocol makes it possible for applications to export 
+ The DBusMenu protocol makes it possible for applications to export
  and import their menus over D-Bus.
  .
  This package contains the debugging symbols for libdbusmenu-qt2.
