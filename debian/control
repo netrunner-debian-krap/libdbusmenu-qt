@@ -5,6 +5,7 @@ Build-Depends: debhelper (>= 9),
  cmake (>= 2.8.5),
  libqt4-dev (>= 4:4.6.2),
  libqjson-dev,
+ pkg-config,
  doxygen
 Maintainer: Debian Krap Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Praveen Arimbrathodiyil <pravi.a@gmail.com>,
