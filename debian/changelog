@@ -25,6 +25,7 @@ libdbusmenu-qt (0.9.0-2) unstable; urgency=low
   * Update symbols file, still not used yet.
   * rules: turn echo into comments.
   * Slightly improve libdbusmenu-qt-dev.install.
+  * Convert copyright to copyright-format v1.0, and update it.
 
  -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Thu, 01 Sep 2011 19:29:20 +0530
 
