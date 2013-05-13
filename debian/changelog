@@ -27,6 +27,7 @@ libdbusmenu-qt (0.9.0-2) unstable; urgency=low
   * Slightly improve libdbusmenu-qt-dev.install.
   * Convert copyright to copyright-format v1.0, and update it.
   * 002-use-multiarch-lib-paths.diff: update author.
+  * With the two changes above, this upload closes: #649899.
 
  -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Thu, 01 Sep 2011 19:29:20 +0530
 
