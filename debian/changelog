@@ -13,6 +13,9 @@ libdbusmenu-qt (0.9.0-2) unstable; urgency=low
   * fix watch file with new url scheme.
   * Thanks to Pino Toscano for many improvements.
 
+  [ Pino Toscano ]
+  * Add myself to uploaders.
+
  -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Thu, 01 Sep 2011 19:29:20 +0530
 
 libdbusmenu-qt (0.9.0-1) unstable; urgency=low
