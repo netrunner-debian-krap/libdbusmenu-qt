@@ -22,6 +22,7 @@ libdbusmenu-qt (0.9.0-2) unstable; urgency=low
     shared library package.
   * Remove DM-Upload-Allowed control field, no more used now.
   * Update Vcs-* headers.
+  * Update symbols file, still not used yet.
 
  -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Thu, 01 Sep 2011 19:29:20 +0530
 

@@ -1,5 +1,7 @@
 # SymbolsHelper-Confirmed: 0.9.0 amd64
 libdbusmenu-qt.so.2 libdbusmenu-qt2 #MINVER#
+ (optional=gccinternal)_ZN12DBusMenuItemD1Ev@Base 0.9.0
+ (optional=gccinternal)_ZN12DBusMenuItemD2Ev@Base 0.9.0
  _ZN16DBusMenuExporter11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.3.2
  _ZN16DBusMenuExporter11qt_metacastEPKc@Base 0.3.2
  _ZN16DBusMenuExporter14activateActionEP7QAction@Base 0.6.6
@@ -38,14 +40,10 @@ libdbusmenu-qt.so.2 libdbusmenu-qt2 #MINVER#
  _ZN16DBusMenuImporterD1Ev@Base 0.3.2
  _ZN16DBusMenuImporterD2Ev@Base 0.3.2
  _ZN16DBusMenuShortcut15fromKeySequenceERK12QKeySequence@Base 0.3.4
- _ZN16DBusMenuShortcutD1Ev@Base 0.8.0
- (optional|arch=amd64 armel)_ZN16DBusMenuShortcutD2Ev@Base 0.8.0
- (optional|arch=!amd64)_ZN18DBusMenuLayoutItemC1ERKS_@Base 0.8.0
- (optional|arch=armel sparc)_ZN18DBusMenuLayoutItemC1Ev@Base 0.8.0
- (optional|arch=armel)_ZN18DBusMenuLayoutItemC2ERKS_@Base 0.8.0
- (optional|arch=armel)_ZN18DBusMenuLayoutItemC2Ev@Base 0.8.0
+ _ZN18DBusMenuLayoutItemC1ERKS_@Base 0.8.0
+ _ZN18DBusMenuLayoutItemC2ERKS_@Base 0.8.0
  _ZN18DBusMenuLayoutItemD1Ev@Base 0.8.0
- (optional|arch=amd64 armel)_ZN18DBusMenuLayoutItemD2Ev@Base 0.8.0
+ _ZN18DBusMenuLayoutItemD2Ev@Base 0.8.0
  _ZNK16DBusMenuExporter10metaObjectEv@Base 0.3.2
  _ZNK16DBusMenuExporter6statusEv@Base 0.9.0
  _ZNK16DBusMenuImporter10metaObjectEv@Base 0.3.2
