@@ -7,6 +7,6 @@ Abstract: This library provides a Qt implementation of the DBusMenu protocol.
 Section: Programming
 
 Format: html
-Index: /usr/share/doc/libdbusmenu-qt-doc/index.html
-Files: /usr/share/doc/libdbusmenu-qt-doc/*.html
-       /usr/share/doc/libdbusmenu-qt-doc/search/*.html
+Index: /usr/share/doc/libdbusmenu-qt-doc/html/index.html
+Files: /usr/share/doc/libdbusmenu-qt-doc/html/*.html
+       /usr/share/doc/libdbusmenu-qt-doc/html/search/*.html
