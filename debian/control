@@ -12,8 +12,8 @@ Uploaders: Praveen Arimbrathodiyil <pravi.a@gmail.com>,
  Pino Toscano <pino@debian.org>
 Standards-Version: 3.9.2
 Homepage: https://launchpad.net/libdbusmenu-qt
-Vcs-Git: git://git.debian.org/pkg-kde/krap/libdbusmenu-qt.git
-Vcs-Browser: http://git.debian.org/?p=pkg-kde/krap/libdbusmenu-qt.git;a=summary
+Vcs-Git: git://anonscm.debian.org/pkg-kde/krap/libdbusmenu-qt.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/krap/libdbusmenu-qt.git;a=summary
 
 Package: libdbusmenu-qt2
 Architecture: any
