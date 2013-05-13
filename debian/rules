@@ -10,7 +10,7 @@
 
 override_dh_auto_install:
 	dh_auto_install
-	echo "Removing embedded jquery javascript library..."
+	# Removing embedded jquery javascript library
 	rm debian/tmp/usr/share/doc/dbusmenu-qt/jquery.js
 
 override_dh_makeshlibs:
@@ -20,4 +20,5 @@ override_dh_strip:
 	dh_strip --dbg-package=libdbusmenu-qt-dbg
 
 override_dh_auto_test:
-	echo "Skipping tests (can't test inside chroot)..."
+	# Skipping tests (can't test inside chroot)...
+	:
