@@ -1,7 +1,7 @@
 Description: add multiarch support
  Adds multiarch support.
 Bug: https://bugs.launchpad.net/ubuntu/+source/sni-qt/+bug/838470
-Author: Praveen Arimbrathodiyil <pravi.a@gmail.com>
+Author: Aurélien Gâteau <aurelien.gateau@ubuntu.com>
 Last-Update: 01-10-2011
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
