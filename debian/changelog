@@ -31,7 +31,7 @@ libdbusmenu-qt (0.9.0-2) unstable; urgency=low
   * Bump Standards-Version to 3.9.4, no changes required.
   * Add the pkg-config build dependency.
 
- -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Thu, 01 Sep 2011 19:29:20 +0530
+ -- Pino Toscano <pino@debian.org>  Mon, 13 May 2013 18:41:49 +0200
 
 libdbusmenu-qt (0.9.0-1) unstable; urgency=low
 
