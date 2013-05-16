@@ -28,7 +28,7 @@ Description: Qt implementation of the DBusMenu protocol
  The DBusMenu protocol makes it possible for applications to export
  and import their menus over D-Bus.
  .
- This package provides libdbusmenu-qt2 shared library.
+ This package provides the libdbusmenu-qt2 shared library.
 
 Package: libdbusmenu-qt-dev
 Section: libdevel
@@ -42,7 +42,8 @@ Description: Qt implementation of the DBusMenu protocol (development)
  The DBusMenu protocol makes it possible for applications to export
  and import their menus over D-Bus.
  .
- This package provides header files for development.
+ This package provides header files and CMake configuration files for
+ development.
 
 Package: libdbusmenu-qt-doc
 Section: doc
@@ -52,7 +53,7 @@ Depends: libjs-jquery,
 Description: Qt implementation of the DBusMenu protocol (documentation)
  This library provides a Qt implementation of the DBusMenu protocol.
  .
- The DBusMenu protocol makes it possible for applications to exportn
+ The DBusMenu protocol makes it possible for applications to export
  and import their menus over D-Bus.
  .
  This package provides API documentation in HTML format.
