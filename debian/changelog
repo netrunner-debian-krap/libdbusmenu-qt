@@ -5,6 +5,7 @@ libdbusmenu-qt (0.9.0-3) UNRELEASED; urgency=low
   * Small touches to the descriptions.
   * libdbusmenu-qt-doc: suggest w3m | www-browser, since it contains HTML
     documentation.
+  * Pass --fail-missing to dh_install.
 
  -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Thu, 16 May 2013 09:48:30 +0200
 

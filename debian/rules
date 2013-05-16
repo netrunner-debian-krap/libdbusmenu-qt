@@ -11,6 +11,9 @@ override_dh_auto_install:
 	# Removing embedded jquery javascript library
 	rm debian/tmp/usr/share/doc/dbusmenu-qt/jquery.js
 
+override_dh_install:
+	dh_install --fail-missing
+
 override_dh_makeshlibs:
 	dh_makeshlibs -V 'libdbusmenu-qt2 (>=0.9.0)'
 
