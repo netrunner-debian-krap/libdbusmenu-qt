@@ -50,6 +50,7 @@ Section: doc
 Architecture: all
 Depends: libjs-jquery,
  ${misc:Depends}
+Suggests: w3m | www-browser
 Description: Qt implementation of the DBusMenu protocol (documentation)
  This library provides a Qt implementation of the DBusMenu protocol.
  .
