@@ -1,5 +1,7 @@
 libdbusmenu-qt (0.9.0-3) UNRELEASED; urgency=low
 
+  [ Pino Toscano ]
+  * Update symbol file.
 
  -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Thu, 16 May 2013 09:48:30 +0200
 
