@@ -6,6 +6,7 @@ libdbusmenu-qt (0.9.3+14.10.20140619-1~) UNRELEASED; urgency=medium
   * Remove patch: 002-use-multiarch-lib-paths.diff, no longer needed.
   * Bump cmake buid dep to 2.8.11.
   * Change doc install path.
+  * Update symbols files.
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 27 Jan 2015 17:14:40 +0100
 
