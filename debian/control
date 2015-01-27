@@ -4,6 +4,7 @@ Priority: optional
 Build-Depends: debhelper (>= 9),
  cmake (>= 2.8.5),
  libqt4-dev (>= 4:4.6.2),
+ qtbase5-dev,
  libqjson-dev,
  pkg-config,
  doxygen
@@ -17,6 +18,20 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/krap/libdbusmenu-qt.git
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/krap/libdbusmenu-qt.git;a=summary
 
 Package: libdbusmenu-qt2
+Architecture: any
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${misc:Depends},
+ ${shlibs:Depends}
+Multi-Arch: same
+Description: Qt implementation of the DBusMenu protocol
+ This library provides a Qt implementation of the DBusMenu protocol.
+ .
+ The DBusMenu protocol makes it possible for applications to export
+ and import their menus over D-Bus.
+ .
+ This package provides the libdbusmenu-qt2 shared library.
+
+Package: libdbusmenu-qt5-2
 Architecture: any
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends},
@@ -45,7 +60,36 @@ Description: Qt implementation of the DBusMenu protocol (development)
  This package provides header files and CMake configuration files for
  development.
 
+Package: libdbusmenu-qt5-dev
+Section: libdevel
+Architecture: any
+Depends: libdbusmenu-qt5-2 (= ${binary:Version}),
+ qtbase5-dev,
+ ${misc:Depends}
+Description: Qt implementation of the DBusMenu protocol (development)
+ This library provides a Qt implementation of the DBusMenu protocol.
+ .
+ The DBusMenu protocol makes it possible for applications to export
+ and import their menus over D-Bus.
+ .
+ This package provides header files and CMake configuration files for
+ development.
+
 Package: libdbusmenu-qt-doc
+Section: doc
+Architecture: all
+Depends: libjs-jquery,
+ ${misc:Depends}
+Suggests: w3m | www-browser
+Description: Qt implementation of the DBusMenu protocol (documentation)
+ This library provides a Qt implementation of the DBusMenu protocol.
+ .
+ The DBusMenu protocol makes it possible for applications to export
+ and import their menus over D-Bus.
+ .
+ This package provides API documentation in HTML format.
+
+Package: libdbusmenu-qt5-doc
 Section: doc
 Architecture: all
 Depends: libjs-jquery,
@@ -72,3 +116,17 @@ Description: Qt implementation of the DBusMenu protocol (debug)
  and import their menus over D-Bus.
  .
  This package contains the debugging symbols for libdbusmenu-qt2.
+
+Package: libdbusmenu-qt5-dbg
+Architecture: any
+Section: debug
+Priority: extra
+Depends: libdbusmenu-qt5-2 (= ${binary:Version}),
+ ${misc:Depends}
+Description: Qt implementation of the DBusMenu protocol (debug)
+ This library provides a Qt implementation of the DBusMenu protocol.
+ .
+ The DBusMenu protocol makes it possible for applications to export
+ and import their menus over D-Bus.
+ .
+ This package contains the debugging symbols for libdbusmenu-qt5-2.
