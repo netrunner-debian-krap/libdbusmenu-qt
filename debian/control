@@ -107,6 +107,7 @@ Package: libdbusmenu-qt-dbg
 Architecture: any
 Section: debug
 Priority: extra
+Multi-Arch: same
 Depends: libdbusmenu-qt2 (= ${binary:Version}),
  ${misc:Depends}
 Description: Qt implementation of the DBusMenu protocol (debug)
@@ -121,6 +122,7 @@ Package: libdbusmenu-qt5-dbg
 Architecture: any
 Section: debug
 Priority: extra
+Multi-Arch: same
 Depends: libdbusmenu-qt5-2 (= ${binary:Version}),
  ${misc:Depends}
 Description: Qt implementation of the DBusMenu protocol (debug)
