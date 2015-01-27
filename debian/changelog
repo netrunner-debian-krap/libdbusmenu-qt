@@ -1,4 +1,4 @@
-libdbusmenu-qt (0.9.3+14.10.20140619-1~) UNRELEASED; urgency=medium
+libdbusmenu-qt (0.9.3+14.10.20140619-1) experimental; urgency=medium
 
   * Team upload.
   * New upstream release (0.9.3+14.10.20140619).
@@ -9,7 +9,7 @@ libdbusmenu-qt (0.9.3+14.10.20140619-1~) UNRELEASED; urgency=medium
   * Update symbols files.
   * Set Multi-Arch fields for -dbg packages.
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 27 Jan 2015 17:14:40 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 27 Jan 2015 19:39:24 +0100
 
 libdbusmenu-qt (0.9.2-1) unstable; urgency=low
 
