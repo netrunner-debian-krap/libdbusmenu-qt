@@ -12,7 +12,7 @@ Maintainer: Debian Krap Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Praveen Arimbrathodiyil <pravi.a@gmail.com>,
  Modestas Vainius <modax@debian.org>,
  Pino Toscano <pino@debian.org>
-Standards-Version: 3.9.4
+Standards-Version: 3.9.6
 Homepage: https://launchpad.net/libdbusmenu-qt
 Vcs-Git: git://anonscm.debian.org/pkg-kde/krap/libdbusmenu-qt.git
 Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/krap/libdbusmenu-qt.git
