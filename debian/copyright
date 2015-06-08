@@ -3,7 +3,7 @@ Upstream-Name: libdbusmenu-qt
 Upstream-Contact: Aurelien Gateau <aurelien.gateau@canonical.com>
 Source: https://launchpad.net/libdbusmenu-qt
 
-Files: src/*
+Files: *
 Copyright: 2009-2010, Canonical
 Author: Aurelien Gateau <aurelien.gateau@canonical.com>
 License: LGPL-2+
