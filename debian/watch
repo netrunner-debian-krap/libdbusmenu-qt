@@ -1,5 +1,2 @@
-# Compulsory line, this is a version 3 file
 version=3
-
-# <Webpage URL> <string match>
-https://launchpad.net/libdbusmenu-qt/+download .*/libdbusmenu-qt-([0-9.]+)\.tar\.bz2
+http://archive.ubuntu.com/ubuntu/pool/main/libd/libdbusmenu-qt/libdbusmenu-qt_([0-9+.]+)\.orig\.tar\.(?:bz2|gz|xz)
